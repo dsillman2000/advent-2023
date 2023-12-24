@@ -1,7 +1,5 @@
-from functools import reduce
 from pathlib import Path
 from itertools import tee, dropwhile, starmap, repeat
-from more_itertools import sliding_window, minmax
 from operator import add, itemgetter
 
 from advent_2023.utils import *
